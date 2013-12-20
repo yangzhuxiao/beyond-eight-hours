@@ -7,6 +7,7 @@
 //
 
 #import "YXZAppDelegate.h"
+#import "YXZMyActivityViewController.h"
 
 @implementation YXZAppDelegate
 
@@ -18,6 +19,17 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    YXZMyActivityViewController *myActivityViewController = [[YXZMyActivityViewController alloc] initWithStyle:UITableViewStylePlain];
+    
+    NSManagedObjectContext *context = [self managedObjectContext];
+    myActivityViewController.managedObjectContext = context;
+    
+    UINavigationController *aNavigationController = [[UINavigationController alloc] initWithRootViewController:myActivityViewController];
+    
+//    [[self window] addSubview:NavigationController.view];
+    [[self window] setRootViewController:aNavigationController];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

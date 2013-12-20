@@ -18,6 +18,10 @@
 		8B3F8092185F1FEB00D50357 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3F8091185F1FEB00D50357 /* Default@2x.png */; };
 		8B3F8094185F1FEB00D50357 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3F8093185F1FEB00D50357 /* Default-568h@2x.png */; };
 		8B3F8097185F1FEB00D50357 /* Beyond_Eight_Hours.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B3F8095185F1FEB00D50357 /* Beyond_Eight_Hours.xcdatamodeld */; };
+		8B5BB60418628C45002E6331 /* YXZMyActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BB60318628C45002E6331 /* YXZMyActivityViewController.m */; };
+		8B5BB60E18629F48002E6331 /* YXZAddActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BB60C18629F48002E6331 /* YXZAddActivityViewController.m */; };
+		8B5BB60F18629F48002E6331 /* YXZAddActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B5BB60D18629F48002E6331 /* YXZAddActivityViewController.xib */; };
+		8B5BB61518631273002E6331 /* Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BB61418631273002E6331 /* Activity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,13 @@
 		8B3F8091185F1FEB00D50357 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8B3F8093185F1FEB00D50357 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8B3F8096185F1FEB00D50357 /* Beyond_Eight_Hours.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Beyond_Eight_Hours.xcdatamodel; sourceTree = "<group>"; };
+		8B5BB60218628C45002E6331 /* YXZMyActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXZMyActivityViewController.h; sourceTree = "<group>"; };
+		8B5BB60318628C45002E6331 /* YXZMyActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXZMyActivityViewController.m; sourceTree = "<group>"; };
+		8B5BB60B18629F48002E6331 /* YXZAddActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXZAddActivityViewController.h; sourceTree = "<group>"; };
+		8B5BB60C18629F48002E6331 /* YXZAddActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXZAddActivityViewController.m; sourceTree = "<group>"; };
+		8B5BB60D18629F48002E6331 /* YXZAddActivityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXZAddActivityViewController.xib; sourceTree = "<group>"; };
+		8B5BB61318631272002E6331 /* Activity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Activity.h; sourceTree = "<group>"; };
+		8B5BB61418631273002E6331 /* Activity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Activity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +97,13 @@
 			children = (
 				8B3F808C185F1FEB00D50357 /* YXZAppDelegate.h */,
 				8B3F808D185F1FEB00D50357 /* YXZAppDelegate.m */,
+				8B5BB60218628C45002E6331 /* YXZMyActivityViewController.h */,
+				8B5BB60318628C45002E6331 /* YXZMyActivityViewController.m */,
+				8B5BB60B18629F48002E6331 /* YXZAddActivityViewController.h */,
+				8B5BB60C18629F48002E6331 /* YXZAddActivityViewController.m */,
+				8B5BB60D18629F48002E6331 /* YXZAddActivityViewController.xib */,
+				8B5BB61318631272002E6331 /* Activity.h */,
+				8B5BB61418631273002E6331 /* Activity.m */,
 				8B3F8095185F1FEB00D50357 /* Beyond_Eight_Hours.xcdatamodeld */,
 				8B3F8084185F1FEB00D50357 /* Supporting Files */,
 			);
@@ -162,6 +180,7 @@
 				8B3F8090185F1FEB00D50357 /* Default.png in Resources */,
 				8B3F8092185F1FEB00D50357 /* Default@2x.png in Resources */,
 				8B3F8094185F1FEB00D50357 /* Default-568h@2x.png in Resources */,
+				8B5BB60F18629F48002E6331 /* YXZAddActivityViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +194,9 @@
 				8B3F808A185F1FEB00D50357 /* main.m in Sources */,
 				8B3F808E185F1FEB00D50357 /* YXZAppDelegate.m in Sources */,
 				8B3F8097185F1FEB00D50357 /* Beyond_Eight_Hours.xcdatamodeld in Sources */,
+				8B5BB60418628C45002E6331 /* YXZMyActivityViewController.m in Sources */,
+				8B5BB60E18629F48002E6331 /* YXZAddActivityViewController.m in Sources */,
+				8B5BB61518631273002E6331 /* Activity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +311,7 @@
 				8B3F809C185F1FEB00D50357 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
